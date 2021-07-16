@@ -1,0 +1,3 @@
+mutation removeBrands($where: BrandWhereInput!) {
+  removeBrands(where: $where)
+}
